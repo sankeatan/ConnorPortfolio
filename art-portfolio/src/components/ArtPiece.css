@@ -1,0 +1,27 @@
+.art-piece {
+    flex: 0 0 100vw;
+    height: 100vh;
+    scroll-snap-align: start; /* Snaps each piece into place */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .art-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures full coverage of the viewport */
+  }
+  
+  .art-title {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
